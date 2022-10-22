@@ -1,0 +1,45 @@
+<!-- Create order page which contains input filed of customer name, type,from_address,to_adress,from_pincode,to_pincode,price-->
+<!-- Path: ordercreation.html -->
+<DOCTYPE html>
+    <head>
+        <title>Order Creation</title>
+    </head>
+    <link rel="stylesheet" href="style1.css">
+    <body>
+        <h1>Order Creation</h1>
+        <div class="container">
+            <form action="ordercreation.html" method="post">
+            <table>
+                <tr>
+                    <td>Customer Name: </td>
+                    <td><input type="text" name="cust_name" size="10" maxlength="10" /></td>
+                </tr>
+                <tr>
+                    <td>Customer Type: </td>
+                    <td><input type="text" name="cust_type" size="10" maxlength="10" /></td>
+                </tr>
+                <tr>
+                    <td>From Address: </td>
+                    <td><input type="text" name="from_address" size="10" maxlength="10" /></td>
+                </tr>
+                <tr>
+                    <td>To Address: </td>
+                    <td><input type="text" name="to_address" size="10" maxlength="10" /></td>
+                </tr>
+                <tr>
+                    <td>From Pincode: </td>
+                    <td><input type="text" name="from_pincode" size="10" maxlength="10" /></td>
+                </tr>
+                <tr>
+                    <td>To Pincode: </td>
+                    <td><input type="text" name="to_pincode" size="10" maxlength="10" /></td>
+                </tr>
+                <tr>
+                    <td>Price: </td>
+                    <td><input type="text" name="price" size="10" maxlength="10" /></td>
+                </tr>
+            </form>
+            </table>
+            <input type="submit" value="Submit" />
+        </div>
+    </body>
