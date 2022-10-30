@@ -1,0 +1,36 @@
+<%
+out.println("<!DOCTYPE html>");
+out.println("");
+out.println("html>");
+out.println("<head>");
+out.println("	<meta charset=\"ISO-8859-1\">");
+out.println("	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">");
+out.println("	<title>DSM Assignment</title>");
+out.println("	 ");
+out.println("	<link rel=\"stylesheet\" type=\"text/css\" href=\"./css/login.css\">");
+out.println(" ");
+out.println("</head>");
+out.println("");
+out.println("<body>");
+out.println(" ");
+out.println("	<div id=\"container\">");
+out.println("		<form action=\"login\" method=\"post\" id=\"flogin\">");
+out.println("		 ");
+out.println("			<div class=\"border-box\">");
+out.println("				<h2>Login</h2>");
+out.println("				<label for=\"uname\" id=\"un\">Username:</label>");
+out.println("				<input type=\"text\" name=\"user\" placeholder=\"Enter Username\" id=\"uname\"><br/>");
+out.println("			 ");
+out.println("				<label for=\"upass\" id=\"ps\">Password:</label>");
+out.println("				<input type=\"password\" name=\"pass\" placeholder=\"Enter Password\" id=\"upass\"><br/>");
+out.println("			 ");
+out.println("				<button type=\"submit\" value=\"Login\"  id=\"submit\" onClick=\"alert('Login Successfully')\">Login</button>");
+out.println("					<a href=\"register.html\">Register</a>");
+out.println("			</div>");
+out.println("		 ");
+out.println("		</form>");
+out.println("	</div>");
+out.println(" ");
+out.println("</body>");
+out.println("/html>");
+%>
